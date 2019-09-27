@@ -1,0 +1,56 @@
+body {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg stroke='%23CCC' stroke-width='0' %3E%3Crect fill='%23F5F5F5' x='-60' y='-60' width='110' height='240'/%3E%3C/g%3E%3C/svg%3E")
+    no-repeat;
+  background-size: cover;
+  width: 90%;
+  margin: auto;
+}
+.jumbotron {
+  background: transparent;
+  margin-top: 5px;
+}
+
+h1 {
+  font-family: "Mansalva", cursive;
+  color: rgb(248, 209, 37);
+  text-shadow: 5px 5px 5px rgb(34, 34, 34);
+  font-size: 80px;
+}
+
+h2 {
+  font-family: "Lobster Two", cursive;
+  color: rgb(46, 46, 45);
+  text-shadow: 5px 5px 5px rgb(153, 152, 152);
+}
+
+footer {
+  margin: auto;
+  width: 90%;
+  height: 50px;
+  text-align: center;
+}
+
+.img-user {
+  width: 350px;
+  height: 200px;
+}
+
+.jumbotron label {
+  font-size: 12px;
+}
+
+.reg-icon {
+  color: #5bc0de;
+  font-weight: bold;
+}
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+  color: #fff;
+  background-color: #5bc0de;
+}
+
+.card {
+  border: 1px ridge gray;
+}
